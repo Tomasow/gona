@@ -1,0 +1,116 @@
+.topscroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    position: relative;
+}
+
+section {
+    margin-bottom: -1px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    @media (max-width: 800px) {
+        flex-direction: column;
+    }
+}
+
+.logo {
+    width: 180px;
+    display: block;
+    margin-right: 20px;
+}
+
+.teksty {
+    width: 50%;
+    padding: 15% 0vw;
+    h2 {
+        font-size: 3.5em;
+        line-height: 1.2em;
+        font-weight: 800;
+        margin-bottom: $padd2;
+        color: $color3;
+        @media (max-width: 1000px) {
+            font-size: 3em;
+            margin-bottom: 50px;
+        }
+        @media (max-width: 800px) {
+            font-size: 2.8em;
+            margin-bottom: 50px;
+        }
+        @media (max-width: 400px) {
+            font-size: 2.4em;
+            margin-bottom: 50px;
+        }
+    }
+    p {
+        margin-bottom: $padd1;
+    }
+    @media (max-width: 1400px) {
+        padding: 120px 5vw;
+    }
+    @media (max-width: 800px) {
+        width: 100%;
+        padding: 120px 7vw 50px;
+    }
+    @media (max-width: 400px) {
+        padding: 100px 7vw 50px;
+    }
+}
+
+.pict {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 70%;
+        height: auto;
+    }
+    @media (max-width: 800px) {
+        width: 100%;
+        padding-bottom: 80px;
+        order: 2;
+        img {
+            width: 60%;
+        }
+    }
+}
+
+.fromLeft {
+    transition: 1s;
+    opacity: 0;
+    transform: translate(10px, 0);
+}
+
+.fromRight {
+    transition: all 1s ease-out;
+    opacity: 0;
+    transform: translate(-10px, 0);
+}
+
+.fromLeft.show,
+.fromRight.show {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.loga {
+    img {
+        width: auto;
+        margin-top: $padd2;
+        @media (max-width: 800px) {
+            margin-top: $padd1;
+        }
+    }
+}

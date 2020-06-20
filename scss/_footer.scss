@@ -1,0 +1,22 @@
+.footer {
+    position: relative;
+    border-top: 2px solid #fff;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0 30px 0;
+        @media (max-width: 1400px) {
+            padding: 10px 5vw 30px 5vw;
+        }
+    }
+    .logo {
+        width: 130px;
+        @media (max-width: 800px) {
+            margin-bottom: 20px;
+        }
+    }
+    p {
+        font-size: 14px;
+    }
+}
