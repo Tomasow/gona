@@ -1,0 +1,52 @@
+$color0:#fff;
+$color1:#333333;
+$color2:#d1e8f3;
+$color3:#11a2cb;
+$color4:#e2d6c6;
+$color5:#315b81;
+$color6:#accad8;
+$color7:#4d6a79;
+$color8: #000000;
+$color9: #90d3ef;
+$color10: #90d3ef;
+$color11: #539106;
+$color12: #3b6607;
+$color13: #ffcc00;
+$padd0:20px;
+$padd1:30px;
+$padd2:100px;
+$padd3:150px;
+$padd4:200px;
+* {
+    box-sizing: border-box;
+}
+
+.easy {
+    transition: all .7s;
+}
+
+.hidden {
+    display: none !important;
+}
+
+// html {
+//     scroll-behavior: smooth;
+// }
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8em;
+    color: $color1;
+}
