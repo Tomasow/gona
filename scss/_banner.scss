@@ -49,12 +49,11 @@
             @media (max-width: 600px) {
                 display: none;
             }
-            @media (max-width: 900px) {}
         }
         .banner-text {
             width: fit-content;
             padding: 0 10px;
-            .stronger {
+            .fat {
                 font-weight: 800;
                 font-size: 3.3vw;
                 line-height: 1.3em;
@@ -77,11 +76,11 @@
                 margin-left: -24px;
                 &.shadow {
                     background: rgba($color8, 0.1);
-                    transform: rotate(-10deg) translate(15px, 25px);
+                    transform: rotate(-10deg) translate(7%, 20%);
                     border: none;
-                    color: rgba($color8, 0.1);
+                    color: rgba($color8, 0.03);
                 }
-                b {
+                strong {
                     font-size: 4.5vw;
                     font-weight: 800;
                     display: block;

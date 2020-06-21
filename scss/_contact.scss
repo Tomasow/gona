@@ -1,4 +1,4 @@
-.kontakt {
+.contact {
     background: $color7 url(../images/kontakt_bgr.png) no-repeat bottom left;
     background-size: cover;
     &::before {
@@ -22,11 +22,11 @@
             padding: 100px 8% 60px;
         }
     }
-    .teksty,
+    .texts,
     h2 {
         color: $color0
     }
-    .teksty {
+    .texts {
         width: 40%;
         padding: 0;
         b {
@@ -42,7 +42,7 @@
             width: 100%;
         }
     }
-    .mapa {
+    .map {
         position: relative;
         background: #4d6a79;
         width: 60%;

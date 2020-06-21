@@ -1,4 +1,4 @@
-.o-firmie {
+.about {
     background-image: linear-gradient($color12, $color11, $color11);
     color: $color0;
     &::before {
@@ -32,29 +32,29 @@
     }
     .img-level1 {
         position: absolute;
-        transition: all 1.4s ease-out;
+        transition: all 1.1s ease-out;
         transform: translate(-55%, 15%);
     }
     .show {
-        .img-level0 {}
+        .img-level0,
         .img-level1 {
             transform: translate(0, 0);
         }
     }
-    .teksty h2 {
+    .texts h2 {
         color: $color0;
     }
 }
 
-.docieplenia {
+.insulation {
     background: $color0 url(../images/SVG/before1.svg);
     background-position: bottom left;
     background-size: 100%;
     background-repeat: no-repeat;
-    .teksty {
+    .texts {
         order: 1;
     }
-    .loga {
+    .logos {
         img {
             width: 30%;
         }
@@ -76,25 +76,25 @@
     }
 }
 
-.pozostaly {
+.others {
     background: $color5 url(../images/SVG/before2.svg);
     background-position: bottom left;
     background-size: 100%;
     background-repeat: no-repeat;
-    .teksty {
+    .texts {
         color: $color0;
     }
     h2 {
         color: $color9
     }
-    .loga {
+    .logos {
         img {
             width: 40%;
         }
     }
 }
 
-.doradztwo {
+.consulting {
     background-color: $color6;
     padding-bottom: 50px;
     &::after {
@@ -109,7 +109,7 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    .teksty {
+    .texts {
         order: 2;
     }
     h2 {
@@ -129,7 +129,7 @@
     .img-level1 {
         position: absolute;
         transition: all 1.1s ease-out;
-        transform: translate(-15%, 0%);
+        transform: translate(-15%, 5%);
     }
     .show {
         .img-level0,
@@ -139,7 +139,7 @@
     }
 }
 
-.biuro {
+.office {
     background: $color0;
     img {
         width: 100%;
@@ -154,8 +154,8 @@
     }
     .img-level1 {
         position: absolute;
-        transition: all 1.1s ease-out;
-        transform: translate(10%, 0%);
+        transition: all .7s ease-out;
+        transform: translate(10%, 0%) rotate(40deg);
     }
     .show {
         .img-level0,
